@@ -5,5 +5,5 @@ function animateNewElement(elem) {
 function rotateAllEllipse() {
    d3.select("svg").selectAll("ellipse").transition()
       .duration(2000)
-      .attr("transform", "rotate(90)");
+      .style("transform", "rotate(90deg)");
 }
