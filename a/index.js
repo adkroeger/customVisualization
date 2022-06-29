@@ -1,3 +1,4 @@
+// Funktion 
 function _chart() {
   const radius = 6;
   const height = 500;
@@ -19,6 +20,8 @@ function _chart() {
     .attr("r", radius)
     .attr("fill", (d, i) => d3.interpolateRainbow(i / 360));
 
+
+  // Erstellen der Transition zum heraus- und hereinzoomen mittles d3 interpolate Zoom
   function transition() {
     const d = data[Math.floor(Math.random() * data.length)];
     const i = d3.interpolateZoom(currentTransform, [...d, radius * 2 + 1]);
