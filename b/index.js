@@ -12,5 +12,5 @@ const svg = d3.select("body").append("svg")
 //Erstellen eines Hintergrundes in das SVG auf Basis der animierten Grafik aus Aufgabe a)
 createBackground(svg, width, height, radius, step);
 
-//Erstellen eine
+//Erstellen einer weiteren Ellipse auf dem zuvor erstellten Hintergrund
 createNewElement(svg, width, height);
