@@ -15,5 +15,5 @@ createBackground(svg, width, height, radius, step);
 //Erstellen einer weiteren Ellipse auf dem zuvor erstellten Hintergrund und speichern dieses Elements in einer Konstante zur weiteren Verarbeitung
 const elem = createNewElement(svg, width, height);
 
-//Hinzufügen einer Animation zur zuvor erstellen Ellipse
+//Hinzufügen einer Animation nach dem Laden des DOMs zur zuvor erstellen Ellipse
 animateNewElement(elem);
